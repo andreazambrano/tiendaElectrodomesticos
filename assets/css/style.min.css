@@ -6862,6 +6862,9 @@ offcanvas-menu>ul>li .menu-expand {
 .product-details-content .pro-details-quality .pro-details-cart a:hover {
     background-color: #1d1d1d
 }
+.product-details-content2 .pro-details-quality2 .pro-details-cart2 a:hover {
+    background-color: #1da110
+}
 
 @media only screen and (max-width: 767px) {
     .product-details-content .pro-details-quality .pro-details-cart a {
