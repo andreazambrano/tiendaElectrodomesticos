@@ -5095,6 +5095,36 @@ offcanvas-menu>ul>li .menu-expand {
     content: attr(data-number)
 }
 
+
+.header-tools2 {
+    position: relative
+}
+
+.header-tools2 .cart-info2 a {
+    font-size: 26px;
+    color: #222;
+    margin-right: 30px;
+    position: relative
+}
+
+.header-tools2 .cart-info2 a:before {
+    position: absolute;
+    top: -4px;
+    left: 22px;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    color: #fff;
+    background: #fff;
+    line-height: 19px;
+    font-size: 26px;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: 500;
+    content: attr(data-number)
+}
+
+
 @media only screen and (max-width: 479px) {
     .header-tools .cart-info a:before {
         left:10px
